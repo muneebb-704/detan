@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        body {
+            background-color: black; 
+            margin: 0;
+            padding: 0  ;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        /* NAVBAR  */
+        .nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+            padding: 5px;
+
+        }
+
+        li a {
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            color: goldenrod;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        li:hover {
+            text-decoration: underline;
+        }
+
+        .logo {
+            padding-right: 350px;
+        }
+
+        .activate {
+            text-decoration: underline;
+        }
+
+        .cont {
+            position: relative;
+            min-height: 100vh;
+            padding: 50px 100px;
+            display: flex;
+            font-size: 20px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .cont .conta{
+            max-width: 800px ;
+            text-align: center;
+        }   
+         h1{
+            text-align: center;
+           font-size: 30px;
+           color: goldenrod   ;
+           text-decoration: underline;
+        }   
+        .cont  .conta p{
+           font-size: 25px;
+           color: darkgoldenrod    ;
+        }   
+        .cased{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .cased .info{
+            width: 5%;
+            display: flex;
+        }
+         .cased .info .jar{
+            position: relative;
+            padding: 50px 0px;
+         }
+        p{
+            color: rgb(127, 102, 38);
+        }
+        h3{
+            color: darkgoldenrod;
+        }
+        .form h2{
+            color: goldenrod;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        form{
+            background-image:linear-gradient(black,black,darkgoldenrod);
+            text-align: center;
+            display: inline-block;
+            justify-content:center;
+            padding: 20px; 
+            width: 400px;
+            color: goldenrod;
+            height: 430px;
+            border: 3px outset rgb(189, 178, 54);
+            border-radius: 10px;
+        }
+        input{
+            font-family: inherit;
+            font-size: 20px;
+            background-color: transparent;
+            border: 2px solid goldenrod;  
+            border-radius: 10px;
+        
+
+        }
+        label{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: normal;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        button{
+            font-size: 20px;
+            background-color: transparent;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: black;
+            color: goldenrod;
+        }
+       .phone{
+        margin-left: 50px;
+       }
+            /* FOOTER */
+
+        .case {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .linein {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            list-style-type: none;
+
+        }
+
+        .footer {
+            background-color: rgb(0, 0, 0);
+            padding: 70px 0;
+
+        }
+
+        .footer-box {
+            width: 25%;
+            padding: 15px;
+        }
+
+        .footer-box h4 {
+            font-size: 22px;
+            text-decoration: underline;
+            color: goldenrod;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            margin-left: 50px;
+            position: relative;
+        }
+
+        .footer-box ul li {
+
+            margin-bottom: 16px;
+        }
+
+        .footer-box ul li a {
+            text-decoration: none;
+            color: rgb(133, 137, 141);
+            font-size: 20px;
+        }
+
+        .footer-box ul li a:hover {
+            color: goldenrod;
+            padding-left: 20px;
+        }
+
+        .footer-box .social a {
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            background-color: rgba(188, 184, 184, 0.374);
+            margin: 10px 10px 10px 10px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 50%;
+            color: aliceblue;
+            transition: all 0.5s ease;
+        }
+
+        .footer-box .social:hover a {
+
+            background-image: linear-gradient(black, goldenrod);
+
+        }
+        .email{
+            margin-right: 30px;
+        }
+    
+    </style>
+</head>
+
+<body>
+     <!-- NAVBAR -->
+     <div class="nav">
+
+        <ul>
+            <img src="IMGSVID/logo4y.png"    width="120px" alt="logo" class="logo">
+            <li><a href="homepage.html">HOME</a> </li>
+            <li><a href="explore-page.html" >CATEGORIES</a> </li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="contactus.html"class="activate">CONTACT US</a></li>
+        </ul>
+    </div>
+
+    <!-- CONTACT US  -->
+    <h1>Contact Us</h1>
+    <section class="cont">
+        <div class="conta">
+        <p>You can contact us with any querry or information on the provided email or phone number or you can visit our
+            outlet</p>
+            <br>
+            <br>
+            <div class="form">
+       
+                <form action="submition.html" method="GET">
+                    <h2>Send Message </h2>
+                    <br>
+                    <label for=""> First Name</label>
+                    <br>
+                    <input type="text" name="" id="" required>
+                    <br>
+                    <br>
+                    <label for="">Last Name</label>
+                    <br>
+                    <input type="text" name="" id="" required>
+                    <br>
+                    <br>
+                    <label for="">Email</label>
+                    <br>
+                    <input type="email" name="" id="" required>
+                    <br>
+                    <br>
+                    <label for=""> Enter Your Message </label>
+                    <br>
+                    <input type="text" name="" id="" >
+                    <br>
+                    <br>
+                    <button type="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="cased">
+        <div class="info">
+            <div class="jar">
+                <div class="log" style="color:goldenrod;" ><i class="fa fa-map-marker" aria-hidden="true"></i> </div>
+                <div class="text">
+                    <h3>Adress</h3>
+                    <p> North Nazimabad</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="jar">
+            <div class="log" style="color:goldenrod; margin-left: 50px;"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div class="phone">
+                <h3>Phone</h3>
+                <p>001100110011</p>
+
+            </div>
+        </div>
+    
+
+    <div class="jar">
+        <div class="log" style="color:goldenrod; "    ><i class="fa fa-envelope" aria-hidden="true"></i></div>
+        <div class="email">
+            <h3>Email</h3>
+            <p>aptech-education.com</p>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+  
+    </section>
+         <!-- FOOTER  -->
+
+    <footer class="footer">
+        <div class="case">
+            <div class="case">
+                <div class="linein">
+                    <div class="footer-box">
+                        <h4>OUR COMPANY</h4>
+                        <ul>
+                            <li> <a href="aboutus.html">About us</a> </li>
+                            <li> <a href="#">Privacy policy</a> </li>
+                            <li> <a href="contactus.html">Contact Us</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h4>GET HELP</h4>
+                        <ul>
+                            <li> <a href="#">FAQ</a> </li>
+                            <li> <a href="#">Shipment</a> </li>
+                            <li> <a href="#">Return policy</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h4>CATEGORY</h4>
+                        <ul>
+                            <li> <a href="precious.html">Presious</a> </li>
+                            <li> <a href="semiprecious.html">Semi Presious</a></li>
+                            <li> <a href="ARTIFICIAL.html">Artificial</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h4>FOLLOW US</h4>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram "></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

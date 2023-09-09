@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* NAVBAR  */
+
+        .nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+            padding: 5px;
+
+        }
+
+        li a {
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            color: goldenrod;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        li:hover {
+            text-decoration: underline;
+        }
+
+        .logo {
+            padding-right: 350px;
+
+        }
+
+        .activate {
+            text-decoration: underline;
+        }
+
+        /* CATEGORIES */
+
+        h1 {
+            color: goldenrod;
+            text-align: center;
+            font-size: 35px;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: underline;
+        }
+
+        h2 {
+            background-color: rgba(108, 96, 30, 0.232);
+            height: 50px;
+            width: 200px;
+            margin: auto;
+            font-size: 25px;
+            border-radius: 60px;
+            padding: 10px;
+            transition: width 1s;
+            line-height: 50px;
+
+        }
+
+        div.semiprecious {
+            display: inline-block;
+            justify-content: space-between;
+            border: 3px outset rgb(189, 171, 33);
+            border-radius: 20px;
+            margin: 100px;
+            padding: 20px;
+            width: 250px;
+            background-color: rgb(70, 70, 70);
+        }
+        p{
+            font-size: 20px;
+        }
+
+        .semiprecious {
+            color: goldenrod;
+            text-align: center;
+
+        }
+
+         .semiprecious img{
+            border: 2px solid goldenrod;
+         }
+
+        .semiprecious:hover {
+            box-shadow: 10px 10px 10px rgba(108, 96, 30, 0.648);
+        }
+
+        
+
+        button {
+            color: black;
+            background-color: goldenrod;
+            font-size: 25px;
+            border-radius: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 200px;
+        }
+
+        button:hover {
+            color: darkgoldenrod;
+        }
+
+        /* FOOTER */
+
+        .case {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .linein {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            list-style-type: none;
+
+        }
+
+        .footer {
+            background-color: rgb(0, 0, 0);
+            padding: 70px 0;
+
+        }
+
+        .footer-box {
+            width: 25%;
+            padding: 15px;
+        }
+
+        .footer-box h4 {
+            font-size: 22px;
+            text-decoration: underline;
+            color: goldenrod;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            margin-left: 50px;
+            position: relative;
+        }
+
+        .footer-box ul li {
+
+            margin-bottom: 16px;
+        }
+
+        .footer-box ul li a {
+            text-decoration: none;
+            color: rgb(133, 137, 141);
+            font-size: 20px;
+        }
+
+        .footer-box ul li a:hover {
+            color: goldenrod;
+            padding-left: 20px;
+        }
+
+        .footer-box .social a {
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            background-color: rgba(188, 184, 184, 0.374);
+            margin: 10px 10px 10px 10px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 50%;
+            color: aliceblue;
+            transition: all 0.5s ease;
+        }
+
+        .footer-box .social:hover a {
+
+            background-image: linear-gradient(black, goldenrod);
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="nav">
+
+        <ul>
+            <img src="IMGSVID/logo4y.png" width="120px" alt="logo" class="logo">
+            <li><a href="homepage.html">HOME</a> </li>
+            <li><a href="explore-page.html" class="activate">CATEGORIES</a> </li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+    </div>
+               <!-- CATEGORIES -->
+    
+    <h1>SEMI  PRECIOUS</h1>
+    <div class="semiprecious">
+        <a href="#">
+            <img src="IMGSVID/sear1.jpg" width="250px" height="250" alt=""></a>
+        <p>Platinium EarRins with Diamond</p>
+        <p>$180</p>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star "></i>
+        <br>
+        <br>
+        <button type="button"> BUY NOW</button>
+    </div>
+
+    <div class="semiprecious">
+        <a href="#">
+            <img src="IMGSVID/sear2.jpg" width="250px" height="250" alt=""></a>
+        <p>Gold EarRings with White Stones</p>
+        <p>$150</p>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star "></i>
+        <br>
+        <br>
+        <button type="button"> BUY NOW</button>
+    </div>
+
+    <div class="semiprecious">
+        <a href="#">
+            <img src="IMGSVID/sear3.jpg" width="250px" height="250" alt=""></a>
+        <p>Platinium EarRings</p>
+        <p>$170</p>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star "></i>
+        <br>
+        <br>
+        <button type="button"> BUY NOW</button>
+    </div>
+    <div class="semiprecious">
+        <a href="#">
+            <img src="IMGSVID/sneck1.jpg" width="250px" height="250" alt=""></a>
+        <p>Platinium Red Stones Necklace</p>
+        <p>$300</p>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star "></i>
+        <br>
+        <br>
+        <button type="button"> BUY NOW</button>
+    </div>
+    <div class="semiprecious">
+        <a href="#">
+            <img src="IMGSVID/sneck2.jpg" width="250px" height="250" alt=""></a>
+        <p>Platinium Necklace</p>
+        <p>$250</p>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star "></i>
+        <br>
+        <br>
+        <button type="button"> BUY NOW</button>
+    </div>
+    <div class="semiprecious">
+        <a href="#">
+            <img src="IMGSVID/sneck3.jpg" width="250px" height="250" alt=""></a>
+        <p>Diamond Necklace</p>
+        <p>$400</p>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star "></i>
+        <br>
+        <br>
+        <button type="button"> BUY NOW</button>
+    </div>
+    <div class="semiprecious">
+        <a href="#">
+            <img src="IMGSVID/sring1.jpg" width="250px" height="250" alt=""></a>
+        <p>Diamond Ring</p>
+        <p>$200</p>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star "></i>
+        <br>
+        <br>
+        <button type="button"> BUY NOW</button>
+    </div>
+    <div class="semiprecious">
+        <a href="#">
+            <img src="IMGSVID/sring3.jpg" width="250px" height="250" alt=""></a>
+        <p>Platinium Ring</p>
+        <p>$120</p>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star "></i>
+        <br>
+        <br>
+        <button type="button"> BUY NOW</button>
+    </div>
+    <!-- FOOTER  -->
+
+    <footer class="footer">
+        <div class="case">
+            <div class="case">
+                <div class="linein">
+                    <div class="footer-box">
+                        <h4>OUR COMPANY</h4>
+                        <ul>
+                            <li> <a href="aboutus.html">About us</a> </li>
+                            <li> <a href="#">Privacy policy</a> </li>
+                            <li> <a href="contactus.html">Contact us</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h4>GET HELP</h4>
+                        <ul>
+                            <li> <a href="#">FAQ</a> </li>
+                            <li> <a href="#">Shipment</a> </li>
+                            <li> <a href="#">Return policy</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h4>CATEGORY</h4>
+                        <ul>
+                            <li> <a href="precious.html">Presious</a> </li>
+                            <li> <a href="semiprecious.html">Semi Presious</a></li>
+                            <li> <a href="ARTIFICIAL.html">Artificial</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h4>FOLLOW US</h4>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram "></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

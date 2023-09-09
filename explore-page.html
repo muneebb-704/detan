@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* NAVBAR  */
+        .nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+            padding: 5px;
+
+        }
+
+        li a {
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            color: goldenrod;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        li:hover {
+            text-decoration: underline;
+        }
+
+        .logo {
+            padding-right: 350px;
+        }
+
+        .activate {
+            text-decoration: underline;
+        }
+
+        /* CATEGORIES */
+
+        h1 {
+            color: goldenrod;
+            text-align: center;
+            font-size: 35px;
+            font-family:'Times New Roman', Times, serif;
+            text-decoration: underline;
+        }
+
+        h2 {
+            background-color: rgba(108, 96, 30, 0.232);
+            height: 50px;
+            width: 200px;
+            margin: auto;
+            font-size: 25px;
+            border-radius: 60px;
+            padding: 10px;
+            transition: width 1s;
+            line-height: 50px;
+
+        }
+
+        h2:hover {
+            width: 500px;
+        }
+
+
+        div.presious {
+            display: inline-flexbox;
+            justify-content: space-between;
+            border: 3px outset rgb(109, 100, 44);
+            border-radius: 10px;
+            margin: 50px;
+            padding: 20px;
+        }
+
+        div.semipresious {
+            display: inline-flexbox;
+            justify-content: space-between;
+            border: 3px outset rgb(109, 100, 44);
+            border-radius: 10px;
+            margin: 50px;
+            padding: 20px;
+        }
+
+        div.artificial {
+            display: inline-flexbox;
+            justify-content: space-between;
+            border: 3px outset rgb(109, 100, 44);
+            border-radius: 10px;
+            margin: 50px;
+            padding: 20px;
+        }
+
+        .presious {
+            color: goldenrod;
+            text-align: center;
+        }
+
+        .semipresious {
+            color: goldenrod;
+            text-align: center;
+
+        }
+
+        .artificial {
+            color: goldenrod;
+            text-align: center;
+        }
+
+        .presious:hover {
+            box-shadow: 10px 10px 10px rgba(108, 96, 30, 0.648);
+        }
+
+        .semipresious:hover {
+            box-shadow: 10px 10px 10px rgba(108, 96, 30, 0.648);
+        }
+
+        .artificial:hover {
+            box-shadow: 10px 10px 10px rgba(108, 96, 30, 0.648);
+        }
+
+        /* FOOTER */
+
+        .case {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .linein {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            list-style-type: none;
+
+        }
+
+        .footer {
+            background-color: rgb(0, 0, 0);
+            padding: 70px 0;
+
+        }
+
+        .footer-box {
+            width: 25%;
+            padding: 15px;
+        }
+
+        .footer-box h4 {
+            font-size: 22px;
+            text-decoration: underline;
+            color: goldenrod;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+            margin-left: 50px;
+            position: relative;
+        }
+
+        .footer-box ul li {
+
+            margin-bottom: 16px;
+        }
+
+        .footer-box ul li a {
+            text-decoration: none;
+            color: rgb(133, 137, 141);
+            font-size: 20px;
+        }
+
+        .footer-box ul li a:hover {
+            color: goldenrod;
+            padding-left: 20px;
+        }
+
+        .footer-box .social a {
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            background-color: rgba(188, 184, 184, 0.374);
+            margin: 10px 10px 10px 10px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 50%;
+            color: aliceblue;
+            transition: all 0.5s ease;
+        }
+
+        .footer-box .social:hover a {
+
+            background-image: linear-gradient(black, goldenrod);
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="nav">
+
+        <ul>
+            <img src="IMGSVID/logo4y.png"    width="120px" alt="logo" class="logo">
+            <li><a href="homepage.html">HOME</a> </li>
+            <li><a href="explore-page.html" class="activate">CATEGORIES</a> </li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+    </div>
+    <!-- CATEGORIES -->
+    <h1>CATEGORIES</h1>
+    <div class="presious">
+        <a href="precious.html">
+            <img src="IMGSVID/PRESIOUS.jpg" width="250px" height="250" alt=""></a>
+        <h2>PRECIOUS</h2>
+    </div>
+
+    <div class="semipresious">
+        <a href="semiprecious.html">
+            <img src="IMGSVID/SEMI.jpg" width="250px" height="250" alt=""></a>
+        <h2>SEMI PRECIOUS</h2>
+    </div>
+
+    <div class="artificial">
+        <a href="ARTIFICIAL.html">
+            <img src="IMGSVID/ARTIFICIAL.jpg" width="250px" height="250" alt=""></a>
+        <h2>ARTIFICIAL</h2>
+    </div>
+                     <!-- FOOTER  -->
+
+    <footer class="footer">
+        <div class="case">
+            <div class="case">
+                <div class="linein">
+                    <div class="footer-box">
+                        <h4>OUR COMPANY</h4>
+                        <ul>
+                            <li> <a href="aboutus.html">About us</a> </li>
+                            <li> <a href="#">Privacy policy</a> </li>
+                            <li> <a href="contactus.html">Contact Us</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h4>GET HELP</h4>
+                        <ul>
+                            <li> <a href="#">FAQ</a> </li>
+                            <li> <a href="#">Shipment</a> </li>
+                            <li> <a href="#">Return policy</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h4>CATEGORY</h4>
+                        <ul>
+                            <li> <a href="precious.html">Presious</a> </li>
+                            <li> <a href="semiprecious.html">Semi Presious</a></li>
+                            <li> <a href="ARTIFICIAL.html">Artificial</a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer-box">
+                        <h4>FOLLOW US</h4>
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram "></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

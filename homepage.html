@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+
+            background-color: black;
+        }
+
+        .logo{
+            padding-left: 20px;
+            margin: 14px;
+
+        }
+
+        .video {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -999;
+        }
+
+
+        div h1{
+            display: flex;
+            justify-content: center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-decoration:underline;
+            font-size: 60px;
+            color:goldenrod;
+            text-align: left;
+            margin-top: 230px;
+            padding-left: 25px;
+
+        }
+
+        button {
+          
+            background: transparent;
+            margin-left: 45%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-color: goldenrod;
+            font-weight: 600;
+            border: 2px outset goldenrod;
+            border-radius: 30px;
+            padding: 5px;
+            font-size: 25px;
+        }
+
+        button a {
+            
+            justify-content: center;
+            text-decoration: none;
+            color: goldenrod;
+        }
+
+        button:hover{
+            background-image:linear-gradient( rgba(0, 0, 0, 0.488),rgba(218, 165, 32, 0.586)   );
+        }
+    </style>
+
+</head>
+
+<body>
+     
+        <img src="IMGSVID/logo4y.png" alt="logo3" width="120px"  class="logo">
+    
+    <div>
+        <h1>IMITIATION  JEWELLERY</h1>
+        <button><a href="explore-page.html">EXPLORE</a></button>
+    </div>
+    <video autoplay loop muted class="video" style="height:900px; width: 1000px;">
+        <source src="IMGSVID/video4.mp4"  type="video/mp4">
+    </video>
+
+</body>
+
+</html>
